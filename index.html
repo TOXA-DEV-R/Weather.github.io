@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/basic.css" />
+    <title>Weather</title>
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header>
+      <!-- navbar start -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+              <a class="logo" href="/"> fun weather.</a>
+            </div>
+            <div class="col-auto">
+              <div class="navbar-bars">
+                <button class="btn"><i class="fas fa-bars"></i></button>
+              </div>
+            </div>
+            <div class="col-auto display-flex align-items-center menu">
+              <ul class="navbar__items">
+                <li class="navbar__items__item">
+                  <a href="/" class="navbar__items__item-links" id="navbar-link"
+                    >home</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a
+                    href="#features"
+                    class="navbar__items__item-links"
+                    id="navbar-link"
+                    >features</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a
+                    href="#reviews"
+                    class="navbar__items__item-links"
+                    id="navbar-link"
+                    >reviews</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a href="#" class="navbar__items__item-links">download</a>
+                </li>
+              </ul>
+              <div class="navbar__registration">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- header-main start -->
+      <div class="header-main">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6">
+              <h1>Get the most fun weather app</h1>
+              <p>
+                Simple, nice and user-frienddly application of the <br />
+                weather. Only useful information
+              </p>
+              <div class="header-main__links">
+                <a href="#">download</a>
+                <a href="#">Features</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img">
+                <img src="./img/phone1.png" alt="img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-main end -->
+    </header>
+    <button class="up"><i class="fas fa-chevron-up"></i></button>
+    <!-- header end -->
+    <!-- navbar modal start -->
+    <div class="navbar-modal">
+      <a class="logo" href="/"> fun weather.</a>
+      <ul class="navbar__items justify-content-center">
+        <li class="navbar__items__item">
+          <a href="/" class="navbar__items__item-links" id="navbar-link"
+            >home</a
+          >
+        </li>
+        <li class="navbar__items__item">
+          <a href="#features" class="navbar__items__item-links" id="navbar-link"
+            >features</a
+          >
+        </li>
+        <li class="navbar__items__item">
+          <a href="#reviews" class="navbar__items__item-links" id="navbar-link"
+            >reviews</a
+          >
+        </li>
+        <li class="navbar__items__item">
+          <a href="#" class="navbar__items__item-links">download</a>
+        </li>
+      </ul>
+      <div class="navbar__registration justify-content-center">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <button id="btn-times"><i class="fas fa-times"></i></button>
+    </div>
+    <!-- navbar modal end -->
+    <!-- section-perfect start -->
+    <section class="section-perfect section-link" id="features">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 display-flex justify-content-center">
+            <h3 class="gl-text">perfect fratures</h3>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="section-perfect__necessary">
+              <span>
+                <img src="./img/img_02.png" alt="img" />
+              </span>
+              <div class="section-perfect__necessary-info">
+                <h3>Usability</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  iusto numquam, nihil exercitationem quia fugit repellat optio
+                  unde.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="section-perfect__necessary">
+              <span>
+                <img src="./img/img_01.png" alt="img" />
+              </span>
+              <div class="section-perfect__necessary-info">
+                <h3>Usability</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  iusto numquam, nihil exercitationem quia fugit repellat optio
+                  unde.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="section-perfect__necessary">
+              <span>
+                <img src="./img/img_03.png" alt="img" />
+              </span>
+              <div class="section-perfect__necessary-info">
+                <h3>Usability</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                  iusto numquam, nihil exercitationem quia fugit repellat optio
+                  unde.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-perfect end -->
+
+    <!-- section-carousel  start -->
+    <section class="section-carousel">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 display-flex justify-content-center">
+            <h3 class="gl-text">Simple widgets</h3>
+          </div>
+        </div>
+        <div class="section-carousel-block">
+          <div class="carousel">
+            <div class="carousel-item">
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_01.png" alt="cloudy" />
+                  <p>cloudly</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Moscow <span>Russia</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_02.png" alt="cloudy" />
+                  <p>sunnay</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Rio <span>Brazil</span></h4>
+                  <b>31</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_03.png" alt="cloudy" />
+                  <p>rainy</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>London <span>Englend</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_01.png" alt="cloudy" />
+                  <p>cloudly</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Moscow <span>Russia</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_02.png" alt="cloudy" />
+                  <p>sunnay</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Rio <span>Brazil</span></h4>
+                  <b>31</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_03.png" alt="cloudy" />
+                  <p>rainy</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>London <span>Englend</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_01.png" alt="cloudy" />
+                  <p>cloudly</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Moscow <span>Russia</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_02.png" alt="cloudy" />
+                  <p>sunnay</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>Rio <span>Brazil</span></h4>
+                  <b>31</b>
+                </div>
+              </div>
+              <div class="carousel-item__image">
+                <div class="carousel-item__image__left">
+                  <img src="./img/pefect_03.png" alt="cloudy" />
+                  <p>rainy</p>
+                </div>
+                <div class="carousel-item__image__right">
+                  <h4>London <span>Englend</span></h4>
+                  <b>-10</b>
+                </div>
+              </div>
+            </div>
+            <button class="next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-carousel  end -->
+
+    <!-- section-main start -->
+    <section class="section-main" id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 display-flex justify-content-center">
+            <h3 class="gl-text">Screenshots</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 section-main-block">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-5">
+                <div class="section-main__img">
+                  <img src="./img/screen01.png" alt="img" />
+                  <span>15</span>
+                  <span>Cloudy</span>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./img/cloud1.png" alt="cloud" />
+                  </div>
+                  <div class="card__body">
+                    <h4>when the cloud</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Unde, repellendus eligendi. In, ipsa. Fuga ipsa nihil
+                      minus accusantium.
+                    </p>
+                  </div>
+                  <div class="card__info">
+                    <span>95%</span>
+                    <span>9</span>
+                    <span>Rainy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 section-main-block">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-7">
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./img/sun1.png" alt="cloud" style="width: 65px" />
+                  </div>
+                  <div class="card__body">
+                    <h4>when the sun</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Unde, repellendus eligendi. In, ipsa. Fuga ipsa nihil
+                      minus accusantium.
+                    </p>
+                  </div>
+                  <div class="card__info">
+                    <span>95%</span>
+                    <span>9</span>
+                    <span>Rainy</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="section-main__img">
+                  <img src="./img/screen02.png" alt="img" />
+                  <span>35</span>
+                  <span>Cloudy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 section-main-block">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-5">
+                <div class="section-main__img">
+                  <img src="./img/screen03.png" alt="img" />
+                  <span>9</span>
+                  <span>Rainy</span>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./img/rainy1.png" alt="cloud" />
+                  </div>
+                  <div class="card__body">
+                    <h4>when the rain</h4>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Unde, repellendus eligendi. In, ipsa. Fuga ipsa nihil
+                      minus accusantium.
+                    </p>
+                  </div>
+                  <div class="card__info">
+                    <span>95%</span>
+                    <span>9</span>
+                    <span>Rainy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row what">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 display-flex justify-content-center">
+                <h3 class="gl-text">what people are saying</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="what__something">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                beatae pariatur quia magnam reiciendis nulla ipsam quo
+                perferendis.
+              </p>
+              <span>John Updike</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="what__something">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                beatae pariatur quia magnam reiciendis nulla ipsam quo
+                perferendis.
+              </p>
+              <span>William Hazlitt</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="what__something">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                beatae pariatur quia magnam reiciendis nulla ipsam quo
+                perferendis.
+              </p>
+              <span>Mignon McLaughlin</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="what__something">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                beatae pariatur quia magnam reiciendis nulla ipsam quo
+                perferendis.
+              </p>
+              <span>abraham lincoln</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section-main end -->
+    <!-- apps-info -->
+    <section class="apps-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="apps-info__text">
+              <h3 class="gl-text">How download the app</h3>
+              <p>
+                Just download the app from the store. Simple, nice and
+                user-friendly application of theweather. Only relevant and
+                useful information
+              </p>
+              <div class="img">
+                <a href="#"> <img src="./img/appstor.png" alt="appstor" /></a>
+                <a href="#">
+                  <img src="./img/googleplay.png" alt="googleplay"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="appdownload-img">
+              <img src="./img/appdownload1.png" alt="app_img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer start -->
+    <footer>
+      <nav class="navbar">
+        <div class="container">
+          <div
+            class="row justify-lg-content-between justify-content-center align-items-center"
+          >
+            <div class="col-auto">
+              <a class="logo" href="/"><span>fun</span> weather.</a>
+            </div>
+            <div class="col-auto display-flex align-items-center">
+              <ul class="navbar__items">
+                <li class="navbar__items__item">
+                  <a href="/" class="navbar__items__item-links" id="navbar-link"
+                    >home</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a
+                    href="#features"
+                    class="navbar__items__item-links"
+                    id="navbar-link"
+                    >features</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a
+                    href="#reviews"
+                    class="navbar__items__item-links"
+                    id="navbar-link"
+                    >reviews</a
+                  >
+                </li>
+                <li class="navbar__items__item">
+                  <a href="#!" class="navbar__items__item-links">download</a>
+                </li>
+              </ul>
+              <div class="navbar__registration">
+                <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!"><i class="fab fa-instagram"></i></a>
+                <a href="#!"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="br-bottom"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>2020 All rights reserved. Weather App Theme by Gravpix</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- script start -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+      integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+    <!-- script end -->
+  </body>
+</html>
